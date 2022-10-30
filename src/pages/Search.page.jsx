@@ -1,5 +1,11 @@
+import SearchBar from "../components/atoms/SearchBar";
+
 const Search = () => {
-    return <main>Search</main>;
+    return (
+        <main>
+            <SearchBar placeholder="search . . . " />
+        </main>
+    );
 };
 
 export default Search;
